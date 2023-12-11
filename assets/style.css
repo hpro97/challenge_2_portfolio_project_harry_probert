@@ -1,0 +1,224 @@
+/* global */
+
+@media only screen and (max-width: 600px) {
+  div.grid-container{
+  margin: 0px 5%;
+  display: block;
+  grid-template-areas:
+  "one"
+  "two"
+  "three"
+  "four"
+  "five"
+  ;
+  }
+  section#about{
+    display: block;
+  }
+  div.about-text{
+    display: block;
+    text-align: start;
+  }
+}
+
+
+:root {
+  --text-color: #ffffff;
+  --accentuation: #be3144;
+  --background: #000000;
+  }
+
+* {
+  box-sizing: border-box;
+  
+}
+          
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-color: var(--background) ;
+  color: var(--text-color);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  background-color:rgba(255,255,255,0.1);
+  transition:background-color 10.5s ease;
+}
+
+p {
+  margin: 2em;
+}
+
+.page-section {
+
+}
+
+/* main logo / nav */
+
+a {
+  text-decoration: none;
+  color:var(--text-color);
+}
+
+
+h1 {
+text-decoration: underline;
+text-decoration-color: var(--accentuation);
+text-decoration-thickness: 40%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  margin: 0% 1%;
+  gap: 5%;
+  text-decoration: underline;
+  text-decoration-thickness: 40%;
+}
+
+.nav-bar p {
+  padding: 2%;
+  margin: 0% 3%;
+}
+
+/* hero banner */
+
+.hero-banner {
+background-image: url(./images/02-hero-bg.jpg);
+padding: 5%;
+background-size: cover;
+}
+
+.hero-text {
+
+}
+
+.hero-text h2 {
+
+}
+
+/* about me */
+
+#about {
+  display: grid;
+  grid-template-areas: 'description image';
+  grid-gap: 1em;
+}
+
+#about h2 {
+
+}
+
+#about p {
+  
+
+}
+
+.about-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portrait-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portrait {
+  padding: 2%;
+  margin: 2%;
+  width: 14em ;
+  height: 20em;
+}
+
+/* portfolio */
+
+#work {
+
+}
+
+#work h2 {
+
+}
+
+.grid-container {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "one one"
+  "two three"
+  "four five"
+  ;
+  
+}
+
+.category-grid-area {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+#seo-optimization { 
+  grid-area: one;
+  background-image: url(.//images/seo.jpg);
+  
+}
+
+#magic-bath-toaster {
+  grid-area: two;
+  background-image: url(.//images/bath.jpg);
+  
+}
+
+#self-opening-can-of-beans {
+  grid-area: three;
+  background-image: url(.//images/beans.jpg);
+  
+}
+
+#unicorn-escape-room {
+  grid-area: four;
+  background-image: url(.//images/unicorn.jpg);
+  
+}
+
+#norse-salmon-chatbot {
+  grid-area: five;
+  background-image: url(.//images/salmon.jpg);
+  
+}
+
+/* contact */
+
+#contact {
+
+}
+
+#contact h2 {
+
+}
+
+#contact p {
+
+}
+
+
