@@ -22,9 +22,9 @@ https://hpro97.github.io/challenge_2_portfolio_project_harry_probert
 
 ## Credits
 
-EdX front end development training team for the reference mockup
-w3school for clarification on certain coding methods
-open source images from pexels.com
+EdX front end development training team for the reference mockup <br>
+w3school for clarification on certain coding methods <br>
+open source images from pexels.com <br>
 
 ## License
 
