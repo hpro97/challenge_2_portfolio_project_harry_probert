@@ -24,6 +24,7 @@ https://hpro97.github.io/challenge_2_portfolio_project_harry_probert
 
 EdX front end development training team for the reference mockup
 w3school for clarification on certain coding methods
+open source images from pexels.com
 
 ## License
 
